@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#00000000</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="color_black">#000000</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_transparent">#00000000</color>
+
+    <color name="color_1a1a1a">#1a1a1a</color>
+    <color name="color_808080">#808080</color>
+    <color name="color_e5e5e5">#e5e5e5</color>
+    <color name="color_323232">#323232</color>
+    <color name="color_e1e1e1">#e1e1e1</color>
+    <color name="color_fafafa">#fafafa</color>
+    <color name="color_b9b9b9">#b9b9b9</color>
+    <color name="color_f2f2f2">#f2f2f2</color>
+
+    <color name="color_e6000000">#e6000000</color>
+    <color name="color_2c000000">#2c000000</color>
+    <color name="color_2a000000">#2a000000</color>
+    <color name="color_2aeef3fa">#2aeef3fa</color>
+    <color name="color_b6c1cf">#b6c1cf</color>
+    <color name="color_2a4160">#2a4160</color>
+    <color name="color_eef3fa">#eef3fa</color>
+    <color name="color_ebf1f9">#ebf1f9</color>
+
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+    <!--数据库名-->
+    <dbname value="net_log" />
+    <!-- 版本-->
+    <version value="1" />
+    <list>
+
+        <mapping class="com.yeqiu.easyandroid.network.capture.NetLog"/>
+
+    </list>
+
+
+    <!--数据库名-->
+    <dbname value="app_db" />
+    <!-- 版本-->
+    <version value="1" />
+    <list>
+
+        <mapping class="com.bszh.repository.model.CacheData"/>
+
+    </list>
+
+
+
+</litepal>

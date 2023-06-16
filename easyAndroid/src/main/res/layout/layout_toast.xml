@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:com.bszhihui.login.app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_toast"
+    android:minWidth="@dimen/dp_120">
+
+
+    <TextView
+        android:id="@+id/tv_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_16"
+        android:maxWidth="@dimen/dp_400"
+        tools:text="msg" />
+
+
+</RelativeLayout>

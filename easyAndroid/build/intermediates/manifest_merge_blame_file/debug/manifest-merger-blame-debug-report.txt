@@ -1,0 +1,53 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.yeqiu.easyandroid" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="23"
+6-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="31" />
+7-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+9-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:5:5-79
+9-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:5:22-76
+10    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+10-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:6:5-84
+10-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:6:22-81
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:7:5-81
+11-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:7:22-78
+12
+13    <application>
+13-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:9:5-31:19
+14        <activity android:name="com.yeqiu.easyandroid.crashkit.CrashActivity" />
+14-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:11:9-60
+14-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:11:19-57
+15        <activity android:name="com.yeqiu.easyandroid.network.capture.view.NetLogListActivity" />
+15-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:13:9-77
+15-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:13:19-74
+16        <activity android:name="com.yeqiu.easyandroid.network.capture.view.NetLogDetailActivity" />
+16-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:15:9-79
+16-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:15:19-76
+17
+18        <!-- FileProvider 适配 -->
+19        <provider
+19-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:18:9-26:20
+20            android:name="androidx.core.content.FileProvider"
+20-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:19:13-62
+21            android:authorities="${applicationId}.provider"
+21-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:20:13-60
+22            android:exported="false"
+22-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:21:13-37
+23            android:grantUriPermissions="true" >
+23-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:22:13-47
+24            <meta-data
+24-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:23:13-25:58
+25                android:name="android.support.FILE_PROVIDER_PATHS"
+25-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:24:17-67
+26                android:resource="@xml/provider_paths" />
+26-->/Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:25:17-55
+27        </provider>
+28    </application>
+29
+30</manifest>

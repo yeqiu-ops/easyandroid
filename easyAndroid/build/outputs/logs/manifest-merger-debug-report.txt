@@ -1,0 +1,67 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml
+		INJECTED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:6:5-84
+	android:name
+		ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:6:22-81
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:7:22-78
+application
+ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:9:5-31:19
+activity#com.yeqiu.easyandroid.crashkit.CrashActivity
+ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:11:9-60
+	android:name
+		ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:11:19-57
+activity#com.yeqiu.easyandroid.network.capture.view.NetLogListActivity
+ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:13:9-77
+	android:name
+		ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:13:19-74
+activity#com.yeqiu.easyandroid.network.capture.view.NetLogDetailActivity
+ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:15:9-79
+	android:name
+		ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:15:19-76
+provider#androidx.core.content.FileProvider
+ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:18:9-26:20
+	android:grantUriPermissions
+		ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:20:13-60
+	android:exported
+		ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:19:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:23:13-25:58
+	android:resource
+		ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:25:17-55
+	android:name
+		ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml:24:17-67
+uses-sdk
+INJECTED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml
+INJECTED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml
+INJECTED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml
+INJECTED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml
+		ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml
+		INJECTED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml
+		ADDED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml
+		INJECTED from /Users/yeqiu/Desktop/test/easyAndroid/src/main/AndroidManifest.xml

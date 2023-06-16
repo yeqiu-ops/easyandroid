@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./easyAndroid/libs/okgo-3.0.4.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/easyAndroid/libs/okgo-3.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

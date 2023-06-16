@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical">
+
+
+    <com.yeqiu.easyandroid.ui.widget.CornerLayout
+        android:id="@+id/cl_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:text="Title"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </com.yeqiu.easyandroid.ui.widget.CornerLayout>
+
+
+    <com.yeqiu.easyandroid.ui.widget.CornerLayout
+        android:id="@+id/cl_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_6"
+        android:layout_marginBottom="@dimen/dp_4"
+        app:corners="@dimen/dp_8">
+
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_white"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="取消"
+            android:textColor="@color/color_1a1a1a"
+            android:textSize="18sp" />
+
+    </com.yeqiu.easyandroid.ui.widget.CornerLayout>
+
+</LinearLayout>

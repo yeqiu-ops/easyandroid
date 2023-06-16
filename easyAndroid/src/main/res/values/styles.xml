@@ -1,0 +1,102 @@
+<resources>
+
+
+    <style name="loading" parent="android:Theme.Dialog">
+        <!-- Dialog的windowFrame框为无-->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否显示title-->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 显示区域背景是否透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 显示区域以外是否使用黑色半透明背景-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否半透明-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--控制灰度的值，当为1时，界面除了dialog内容是高亮显示的，dialog以外的区域是黑色的，完全看不到其他内容-->
+        <item name="android:backgroundDimAmount">0.3</item>
+    </style>
+
+
+    <style name="common_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+    </style>
+
+
+    <style name="tip_dialog_anim" parent="@android:style/Animation.Dialog">
+        <!-- 进入时的动画 -->
+        <item name="android:windowEnterAnimation">@anim/anim_top_enter</item>
+        <!-- 退出时的动画 -->
+        <item name="android:windowExitAnimation">@anim/anim_top_exit</item>
+    </style>
+
+   <style name="bottom_dialog_anim" parent="@android:style/Animation.Dialog">
+        <!-- 进入时的动画 -->
+        <item name="android:windowEnterAnimation">@anim/anim_bottom_enter</item>
+        <!-- 退出时的动画 -->
+        <item name="android:windowExitAnimation">@anim/anim_bottom_exit</item>
+    </style>
+
+
+
+    <declare-styleable name="RatingBar">
+        <!--未选中-->
+        <attr name="starEmptyRes" format="reference" />
+        <!--选中半个-->
+        <attr name="starHalfRes" format="reference" />
+        <!--选中全部-->
+        <attr name="starSelectedRes" format="reference" />
+        <!--星星的总数-->
+        <attr name="startTotalNumber" format="integer" />
+        <!--默认选中的数量 -->
+        <attr name="selectedNumber" format="float" />
+        <!--星星的间距-->
+        <attr name="starDistance" format="dimension" />
+        <!--星星的宽度-->
+        <attr name="starWidth" format="dimension" />
+        <!--星星的高度-->
+        <attr name="starHeight" format="dimension" />
+        <!--是不是只画整个星星，不画半个-->
+        <attr name="starIsFull" format="boolean" />
+        <!-- 是否仅展示，不可点击 -->
+        <attr name="isIndicator" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CircleProgressView">
+        <attr name="cpv_progressNormalColor" format="color"/>
+        <attr name="cpv_progressReachColor" format="color"/>
+        <attr name="cpv_progressTextColor" format="color"/>
+        <attr name="cpv_progressTextSize" format="dimension"/>
+        <attr name="cpv_progressTextOffset" format="dimension"/>
+        <attr name="cpv_progressNormalSize" format="dimension"/>
+        <attr name="cpv_progressReachSize" format="dimension"/>
+        <attr name="cpv_radius" format="dimension"/>
+        <attr name="cpv_progressTextVisible" format="boolean"/>
+        <attr name="cpv_progressStartArc" format="integer"/>
+        <attr name="cpv_progressTextSkewX" format="dimension"/>
+        <attr name="cpv_progressTextPrefix" format="string"/>
+        <attr name="cpv_progressTextSuffix" format="string"/>
+        <attr name="cpv_innerBackgroundColor" format="color"/>
+        <attr name="cpv_progressStyle" format="enum">
+            <enum name="Normal" value="0"/>
+            <enum name="FillInner" value="1"/>
+            <enum name="FillInnerArc" value="2"/>
+        </attr>
+        <attr name="cpv_innerProgressColor" format="color"/>
+        <attr name="cpv_innerPadding" format="dimension"/>
+        <attr name="cpv_outerColor" format="color"/>
+        <attr name="cpv_outerSize" format="dimension"/>
+        <attr name="cpv_reachCapRound" format="boolean"/>
+    </declare-styleable>
+
+</resources>

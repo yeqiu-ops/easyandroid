@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:com.bszhihui.login.app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_ebf1f9">
+
+    <ScrollView
+        android:id="@+id/sl_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_log"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="30dp"
+                android:textColor="@color/color_black"
+                android:textSize="16sp"
+                tools:text="log" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/iv_copy"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/icon_log_copy" />
+
+    <ImageView
+        android:id="@+id/iv_screenshot"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="60dp"
+        android:layout_toLeftOf="@+id/iv_copy"
+        android:src="@drawable/icon_log_screenshot" />
+
+
+</RelativeLayout>

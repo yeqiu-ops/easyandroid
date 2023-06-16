@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./easyAndroid/libs/okserver-2.0.5.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/easyAndroid/libs/okserver-2.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

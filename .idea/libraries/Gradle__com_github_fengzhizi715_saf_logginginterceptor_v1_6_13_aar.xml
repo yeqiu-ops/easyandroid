@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.fengzhizi715:saf-logginginterceptor:v1.6.13@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/adbfe1f5bb06668a1b1c6f704a9a164b/transformed/jetified-saf-logginginterceptor-v1.6.13/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/adbfe1f5bb06668a1b1c6f704a9a164b/transformed/jetified-saf-logginginterceptor-v1.6.13/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/adbfe1f5bb06668a1b1c6f704a9a164b/transformed/jetified-saf-logginginterceptor-v1.6.13/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.fengzhizi715/saf-logginginterceptor/v1.6.13/a1c6cb3ab30cd9c06432d0fe4fe21d34dd463d11/saf-logginginterceptor-v1.6.13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
